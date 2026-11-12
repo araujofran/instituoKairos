@@ -1,0 +1,10 @@
+{
+  "cursos": [
+    {
+      "slug": "bibliologia-critica-textual",
+      "titulo": "Bibliologia e Crítica Textual",
+      "modulo": "Módulo 1 — Bibliologia (Doutrina das Escrituras)",
+      "catalogo_url": "/data/bibliologia/catalogo_videos.json"
+    }
+  ]
+}

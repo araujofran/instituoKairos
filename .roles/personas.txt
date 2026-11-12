@@ -1,0 +1,7 @@
+pasta com com as imagens: C:\Users\fferr\Desktop\acrLeonardo\posIA_projetos\fullCycle\escolaTeologia\.imagens
+
+DorivalCoordenador.png -> Coordenador do Instituto Kairos
+FranciscoProfessor.png -> Professor e Administrator do Site Instituto Kairos
+LogoInstituto.png -> Logo do Instituto Kairos
+
+BibliaAmpuleta.png -> Adicionar do lado direito do Logo do Instituto Kairos

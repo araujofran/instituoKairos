@@ -1,0 +1,41 @@
+{
+  "course_id": "ae3ecc7d-496c-4df5-a01d-161bafe1b810",
+  "course_status": "draft",
+  "assets": [
+    {
+      "id": "a889ffcf-32d4-404a-b9e3-ec51698693fa",
+      "title": "Bibliologia — Livros gratuitos e amostras oficiais",
+      "status": "published",
+      "bytes": 2278,
+      "sha256": "7608db3e7fbe4f6b18b60427dab942eed045906af6de623433778844d1ceb7ec"
+    },
+    {
+      "id": "6b5c54e2-1051-46ef-93bc-b3ae12f5fef0",
+      "title": "Bibliologia — Bibliografia para aquisição",
+      "status": "published",
+      "bytes": 1895,
+      "sha256": "2f1e86dab4d1cbe5e8a01c57b8aaf01085a43e7caa1e5805362943c931d53053"
+    },
+    {
+      "id": "00351dde-5538-4988-8082-c60f10f65324",
+      "title": "Bibliologia — Artigos e acervos de manuscritos",
+      "status": "published",
+      "bytes": 3080,
+      "sha256": "e31bcf294c2a4db1a8b2d34d4a7177a4f2232c93d1de7161c68572503acc86b4"
+    },
+    {
+      "id": "3f620159-a674-47bc-9437-e1f92cbca720",
+      "title": "Bibliologia — Vídeos e playlists: links e verificação",
+      "status": "published",
+      "bytes": 3577,
+      "sha256": "a1f7ab303e2e41a5bbe8dc2d2e6c056f72c9d290b499250f4f7522c39a28747a"
+    },
+    {
+      "id": "c2369191-8b5c-4ac3-8917-f8fd5989e954",
+      "title": "Bibliologia — Roteiro complementar e atividades propostas",
+      "status": "published",
+      "bytes": 3563,
+      "sha256": "bc7ef3319c319378a3d60466898fe9566849e48079e89853fc962c9046a0764b"
+    }
+  ]
+}

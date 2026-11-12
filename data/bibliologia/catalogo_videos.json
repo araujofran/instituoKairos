@@ -1,0 +1,490 @@
+{
+  "modulo": "Módulo 1 — Bibliologia (Doutrina das Escrituras)",
+  "gerado_em": "2026-11-12T01:06:12.569129+00:00",
+  "resumo": {
+    "total_videos_processados": 34,
+    "disponiveis": 34,
+    "indisponiveis_ou_erro": 0,
+    "total_playlists": 3,
+    "total_fontes_oficiais": 3,
+    "pendencias": 1
+  },
+  "fontes_oficiais": [
+    {
+      "id": "oficial-bibleproject-colecao",
+      "titulo_informado": "Como ler a Bíblia — coleção BibleProject em português",
+      "canal": "BibleProject Português",
+      "tipo": "colecao_web",
+      "url_direta": "https://bibleproject.com/pt-br/videos/collections/como-ler-a-biblia/",
+      "descricao": "Série introdutória com panorama bíblico, história da formação e gêneros literários.",
+      "titulo_original": "Como ler a Bíblia — coleção BibleProject em português",
+      "status": "confirmado_externo",
+      "duracao": "Coleção / Podcast"
+    },
+    {
+      "id": "C4ESqtwjqQo",
+      "titulo_informado": "O que é a Bíblia? — BibleProject Português",
+      "canal": "BibleProject - Português",
+      "tipo": "youtube_video",
+      "url_direta": "https://www.youtube.com/watch?v=C4ESqtwjqQo",
+      "descricao": "Visão geral sobre a origem, biblioteca de livros e unidade narrativa das Escrituras.",
+      "titulo_original": "O que é a Bíblia? - Série Como Ler a Bíblia",
+      "duracao": "05:16",
+      "duracao_segundos": 316,
+      "playlist_origem": "Fonte Oficial Confirmada",
+      "status": "disponivel"
+    },
+    {
+      "id": "oficial-vida-nova-podcast-06",
+      "titulo_informado": "Introdução geral à Bíblia — Podcast Vida Nova nº 6",
+      "canal": "Edições Vida Nova",
+      "tipo": "audio_referencia",
+      "url_direta": "https://www.vidanova.com.br/loja/noticia.php?id=154&loja=803335",
+      "descricao": "Episódio oficial da editora apresentando temas introdutórios e bibliografia de Bibliologia.",
+      "titulo_original": "Introdução geral à Bíblia — Podcast Vida Nova nº 6",
+      "status": "confirmado_externo",
+      "duracao": "Coleção / Podcast"
+    }
+  ],
+  "playlists": [
+    {
+      "id": "playlist-canon-formacao",
+      "slug": "canon_formacao_biblia",
+      "titulo_informado": "Cânon e formação da Bíblia",
+      "titulo_original": "Cânon e formação da Bíblia",
+      "canal": "Dois Dedos de Teologia",
+      "url_playlist": "https://www.youtube.com/playlist?list=PLRPNvughqc8RMSvK-55793t7xTf2YjN23",
+      "status": "disponivel",
+      "total_itens_playlist": 12,
+      "itens_bibliologia": 12,
+      "itens_filtrados_outros_modulos": 0,
+      "aulas": [
+        {
+          "id": "p11LFG7YNAA",
+          "ordem": 1,
+          "titulo_informado": "A IGREJA CATÓLICA NOS DEU A BÍBLIA? (SOLA SCRIPTURA)",
+          "titulo_original": "A IGREJA CATÓLICA NOS DEU A BÍBLIA? (SOLA SCRIPTURA)",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "37:39",
+          "duracao_segundos": 2259,
+          "url_direta": "https://www.youtube.com/watch?v=p11LFG7YNAA",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "bB-9OcoLO1g",
+          "ordem": 2,
+          "titulo_informado": "OS APÓSTOLOS SABIAM QUE ESTAVAM ESCREVENDO UM NOVO TESTAMENTO?",
+          "titulo_original": "OS APÓSTOLOS SABIAM QUE ESTAVAM ESCREVENDO UM NOVO TESTAMENTO?",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "22:04",
+          "duracao_segundos": 1324,
+          "url_direta": "https://www.youtube.com/watch?v=bB-9OcoLO1g",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "mrjYga2ciTk",
+          "ordem": 3,
+          "titulo_informado": "OS PAIS DA IGREJA ERAM CONTRA O SOLA SCRIPTURA?",
+          "titulo_original": "OS PAIS DA IGREJA ERAM CONTRA O SOLA SCRIPTURA?",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "51:33",
+          "duracao_segundos": 3093,
+          "url_direta": "https://www.youtube.com/watch?v=mrjYga2ciTk",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "_9MhhwzfW7o",
+          "ordem": 4,
+          "titulo_informado": "LUTERO TIROU LIVROS DA BÍBLIA?",
+          "titulo_original": "LUTERO TIROU LIVROS DA BÍBLIA?",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "43:06",
+          "duracao_segundos": 2586,
+          "url_direta": "https://www.youtube.com/watch?v=_9MhhwzfW7o",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "faygHLAKwGE",
+          "ordem": 5,
+          "titulo_informado": "CATÓLICOS DIZEM QUE EU ERREI SOBRE A BÍBLIA DE JESUS",
+          "titulo_original": "CATÓLICOS DIZEM QUE EU ERREI SOBRE A BÍBLIA DE JESUS",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "18:05",
+          "duracao_segundos": 1085,
+          "url_direta": "https://www.youtube.com/watch?v=faygHLAKwGE",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "LutBX7x0cck",
+          "ordem": 6,
+          "titulo_informado": "RESPONDENDO CATÓLICOS SOBRE O CÂNON (React ao Santa Carona )",
+          "titulo_original": "RESPONDENDO CATÓLICOS SOBRE O CÂNON (React ao Santa Carona )",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "37:11",
+          "duracao_segundos": 2231,
+          "url_direta": "https://www.youtube.com/watch?v=LutBX7x0cck",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "DIdZs6jIDSI",
+          "ordem": 7,
+          "titulo_informado": "QUANDO O CÂNON BÍBLICO FOI FORMADO? NÃO HAVIA BÍBLIA NO COMEÇO?",
+          "titulo_original": "QUANDO O CÂNON BÍBLICO FOI FORMADO? NÃO HAVIA BÍBLIA NO COMEÇO?",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "31:48",
+          "duracao_segundos": 1908,
+          "url_direta": "https://www.youtube.com/watch?v=DIdZs6jIDSI",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "RXosDhvCX0w",
+          "ordem": 8,
+          "titulo_informado": "A IGREJA CATÓLICA NÃO CRIOU A BÍBLIA",
+          "titulo_original": "A IGREJA CATÓLICA NÃO CRIOU A BÍBLIA",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "58:47",
+          "duracao_segundos": 3527,
+          "url_direta": "https://www.youtube.com/watch?v=RXosDhvCX0w",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "KE1qqRHdv0Y",
+          "ordem": 9,
+          "titulo_informado": "REMOVERAM O LIVRO DE ENOQUE DA BÍBLIA?",
+          "titulo_original": "REMOVERAM O LIVRO DE ENOQUE DA BÍBLIA?",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "16:50",
+          "duracao_segundos": 1010,
+          "url_direta": "https://www.youtube.com/watch?v=KE1qqRHdv0Y",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "M5PiCa3xkPc",
+          "ordem": 10,
+          "titulo_informado": "DETURPARAM OS MANUSCRITOS DA BÍBLIA?",
+          "titulo_original": "DETURPARAM OS MANUSCRITOS DA BÍBLIA?",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "28:58",
+          "duracao_segundos": 1738,
+          "url_direta": "https://www.youtube.com/watch?v=M5PiCa3xkPc",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "dtyiV2CqwkY",
+          "ordem": 11,
+          "titulo_informado": "AINDA DÁ PRA ACREDITAR QUE A BÍBLIA É INERRANTE?",
+          "titulo_original": "AINDA DÁ PRA ACREDITAR QUE A BÍBLIA É INERRANTE?",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "38:36",
+          "duracao_segundos": 2316,
+          "url_direta": "https://www.youtube.com/watch?v=dtyiV2CqwkY",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        },
+        {
+          "id": "RkyhYwwGiEg",
+          "ordem": 12,
+          "titulo_informado": "COMO O CÂNON DO NOVO TESTAMENTO FOI FORMADO",
+          "titulo_original": "COMO O CÂNON DO NOVO TESTAMENTO FOI FORMADO",
+          "canal": "Dois Dedos de Teologia",
+          "duracao": "43:39",
+          "duracao_segundos": 2619,
+          "url_direta": "https://www.youtube.com/watch?v=RkyhYwwGiEg",
+          "playlist_origem": "Cânon e formação da Bíblia",
+          "status": "disponivel"
+        }
+      ]
+    },
+    {
+      "id": "playlist-bibliologia-i",
+      "slug": "bibliologia_i_tudo_sobre_biblia",
+      "titulo_informado": "Bibliologia I — Tudo sobre a Bíblia Sagrada",
+      "titulo_original": "BIBLIOLOGIA I - Tudo sobre a Bíblia Sagrada",
+      "canal": "Instituto de Teologia & Tecnologia",
+      "url_playlist": "https://www.youtube.com/playlist?list=PLOQk3W9V5NFynfmNV9IbjrQnSQBTU-Pex",
+      "status": "disponivel",
+      "total_itens_playlist": 8,
+      "itens_bibliologia": 8,
+      "itens_filtrados_outros_modulos": 0,
+      "aulas": [
+        {
+          "id": "TZiG8oFX8VU",
+          "ordem": 1,
+          "titulo_informado": "BIBLIOLOGIA I I AULA 01 I Nome e Formato da BÍBLIA SAGRADA I Site Teologia Para Todos",
+          "titulo_original": "BIBLIOLOGIA I I AULA 01 I Nome e Formato da BÍBLIA SAGRADA I Site Teologia Para Todos",
+          "canal": "Instituto de Teologia & Tecnologia",
+          "duracao": "06:09",
+          "duracao_segundos": 369,
+          "url_direta": "https://www.youtube.com/watch?v=TZiG8oFX8VU",
+          "playlist_origem": "BIBLIOLOGIA I - Tudo sobre a Bíblia Sagrada",
+          "status": "disponivel"
+        },
+        {
+          "id": "UHCZkNnSCsQ",
+          "ordem": 2,
+          "titulo_informado": "BIBLIOLOGIA I I AULA 02 I A UNIDADE da BÍBLIA SAGRADA I Site Teologia Para Todos",
+          "titulo_original": "BIBLIOLOGIA I I AULA 02 I A UNIDADE da BÍBLIA SAGRADA I Site Teologia Para Todos",
+          "canal": "Instituto de Teologia & Tecnologia",
+          "duracao": "05:20",
+          "duracao_segundos": 320,
+          "url_direta": "https://www.youtube.com/watch?v=UHCZkNnSCsQ",
+          "playlist_origem": "BIBLIOLOGIA I - Tudo sobre a Bíblia Sagrada",
+          "status": "disponivel"
+        },
+        {
+          "id": "FoWfRV9QiH8",
+          "ordem": 3,
+          "titulo_informado": "BIBLIOLOGIA I I AULA 03 I A BÍBLIA sobrevive diante das CRÍTICAS I Site Teologia Para Todos",
+          "titulo_original": "BIBLIOLOGIA I I AULA 03 I A BÍBLIA sobrevive diante das CRÍTICAS I Site Teologia Para Todos",
+          "canal": "Instituto de Teologia & Tecnologia",
+          "duracao": "05:25",
+          "duracao_segundos": 325,
+          "url_direta": "https://www.youtube.com/watch?v=FoWfRV9QiH8",
+          "playlist_origem": "BIBLIOLOGIA I - Tudo sobre a Bíblia Sagrada",
+          "status": "disponivel"
+        },
+        {
+          "id": "MNfhhpmhBsk",
+          "ordem": 4,
+          "titulo_informado": "BIBLIOLOGIA I I AULA 04 I A INFLUÊNCIA da BÍBLIA SAGRADA I Site Teologia Para Todos",
+          "titulo_original": "BIBLIOLOGIA I I AULA 04 I A INFLUÊNCIA da BÍBLIA SAGRADA I Site Teologia Para Todos",
+          "canal": "Instituto de Teologia & Tecnologia",
+          "duracao": "04:04",
+          "duracao_segundos": 244,
+          "url_direta": "https://www.youtube.com/watch?v=MNfhhpmhBsk",
+          "playlist_origem": "BIBLIOLOGIA I - Tudo sobre a Bíblia Sagrada",
+          "status": "disponivel"
+        },
+        {
+          "id": "4BDvhKvEDFc",
+          "ordem": 5,
+          "titulo_informado": "BIBLIOLOGIA I I AULA 05 I As divisões da Bíblia: ANTIGO TESTAMENTO I Site Teologia Para Todos",
+          "titulo_original": "BIBLIOLOGIA I I AULA 05 I As divisões da Bíblia: ANTIGO TESTAMENTO I Site Teologia Para Todos",
+          "canal": "Instituto de Teologia & Tecnologia",
+          "duracao": "04:22",
+          "duracao_segundos": 262,
+          "url_direta": "https://www.youtube.com/watch?v=4BDvhKvEDFc",
+          "playlist_origem": "BIBLIOLOGIA I - Tudo sobre a Bíblia Sagrada",
+          "status": "disponivel"
+        },
+        {
+          "id": "PoIEzk_I6tE",
+          "ordem": 6,
+          "titulo_informado": "BIBLIOLOGIA I I AULA 06 I As divisões da Bíblia: NOVO TESTAMENTO I Site Teologia Para Todos",
+          "titulo_original": "BIBLIOLOGIA I I AULA 06 I As divisões da Bíblia: NOVO TESTAMENTO I Site Teologia Para Todos",
+          "canal": "Instituto de Teologia & Tecnologia",
+          "duracao": "04:32",
+          "duracao_segundos": 272,
+          "url_direta": "https://www.youtube.com/watch?v=PoIEzk_I6tE",
+          "playlist_origem": "BIBLIOLOGIA I - Tudo sobre a Bíblia Sagrada",
+          "status": "disponivel"
+        },
+        {
+          "id": "4YWbOq8wmnc",
+          "ordem": 7,
+          "titulo_informado": "BIBLIOLOGIA I  AULA 07 I A INSPIRAÇÃO DIVINA da Bíblia I Site Teologia Para Todos",
+          "titulo_original": "BIBLIOLOGIA I  AULA 07 I A INSPIRAÇÃO DIVINA da Bíblia I Site Teologia Para Todos",
+          "canal": "Instituto de Teologia & Tecnologia",
+          "duracao": "08:04",
+          "duracao_segundos": 484,
+          "url_direta": "https://www.youtube.com/watch?v=4YWbOq8wmnc",
+          "playlist_origem": "BIBLIOLOGIA I - Tudo sobre a Bíblia Sagrada",
+          "status": "disponivel"
+        },
+        {
+          "id": "zdSBeI1emVE",
+          "ordem": 8,
+          "titulo_informado": "BIBLIOLOGIA I  AULA 08 I A PRESERVAÇÃO E A TRADUÇÃO da Bíblia I Site Teologia Para Todos",
+          "titulo_original": "BIBLIOLOGIA I  AULA 08 I A PRESERVAÇÃO E A TRADUÇÃO da Bíblia I Site Teologia Para Todos",
+          "canal": "Instituto de Teologia & Tecnologia",
+          "duracao": "05:08",
+          "duracao_segundos": 308,
+          "url_direta": "https://www.youtube.com/watch?v=zdSBeI1emVE",
+          "playlist_origem": "BIBLIOLOGIA I - Tudo sobre a Bíblia Sagrada",
+          "status": "disponivel"
+        }
+      ]
+    },
+    {
+      "id": "playlist-teologia-sistematica",
+      "slug": "curso_teologia_sistematica",
+      "titulo_informado": "Curso de Teologia Sistemática (Aulas de Bibliologia)",
+      "titulo_original": "CURSO DE TEOLOGIA SISTEMÁTICA",
+      "canal": "Comunidade Batista em Moema",
+      "url_playlist": "https://www.youtube.com/playlist?list=PLp5NR13WIfQlTmES2cfkcHBLOve3dmO6Y",
+      "status": "disponivel",
+      "total_itens_playlist": 29,
+      "itens_bibliologia": 3,
+      "itens_filtrados_outros_modulos": 26,
+      "aulas": [
+        {
+          "id": "eGVh75_rLH4",
+          "ordem": 1,
+          "titulo_informado": "BIBLIOLOGIA 1: o estudo da Bíblia, sua origem, formação e história",
+          "titulo_original": "BIBLIOLOGIA 1: o estudo da Bíblia, sua origem, formação e história",
+          "canal": "Comunidade Batista em Moema",
+          "duracao": "36:47",
+          "duracao_segundos": 2207,
+          "url_direta": "https://www.youtube.com/watch?v=eGVh75_rLH4",
+          "playlist_origem": "CURSO DE TEOLOGIA SISTEMÁTICA",
+          "status": "disponivel"
+        },
+        {
+          "id": "jj8xXNbyuDQ",
+          "ordem": 2,
+          "titulo_informado": "BIBLIOLOGIA 2: o estudo da Bíblia, sua origem, formação e história",
+          "titulo_original": "BIBLIOLOGIA 2: o estudo da Bíblia, sua origem, formação e história",
+          "canal": "Comunidade Batista em Moema",
+          "duracao": "56:26",
+          "duracao_segundos": 3386,
+          "url_direta": "https://www.youtube.com/watch?v=jj8xXNbyuDQ",
+          "playlist_origem": "CURSO DE TEOLOGIA SISTEMÁTICA",
+          "status": "disponivel"
+        },
+        {
+          "id": "85Hx03Jzmfs",
+          "ordem": 7,
+          "titulo_informado": "SATANALOGIA: O que a Bíblia ensina sobre Satanás e os Demônios",
+          "titulo_original": "SATANALOGIA: O que a Bíblia ensina sobre Satanás e os Demônios",
+          "canal": "Comunidade Batista em Moema",
+          "duracao": "43:49",
+          "duracao_segundos": 2629,
+          "url_direta": "https://www.youtube.com/watch?v=85Hx03Jzmfs",
+          "playlist_origem": "CURSO DE TEOLOGIA SISTEMÁTICA",
+          "status": "disponivel"
+        }
+      ]
+    }
+  ],
+  "avulsos": [
+    {
+      "id": "IjrgzScEC1Q",
+      "titulo_informado": "Bibliologia — Doutrina das Escrituras: O que é",
+      "titulo_original": "BIBLIOLOGIA–Doutrina das Escrituras, O que é Bibliologia? Significado - Faculdade Vitória em Cristo.",
+      "canal": "Canal Ele Me Salvou",
+      "duracao": "06:16",
+      "duracao_segundos": 376,
+      "url_direta": "https://www.youtube.com/watch?v=IjrgzScEC1Q",
+      "playlist_origem": null,
+      "status": "disponivel"
+    },
+    {
+      "id": "l8XzznelqlA",
+      "titulo_informado": "Bibliologia, Aula 1 — Teologia para Todos",
+      "titulo_original": "BIBLIOLOGIA | AULA 1 - Teologia para Todos",
+      "canal": "Aplicativo da Bíblia",
+      "duracao": "19:29",
+      "duracao_segundos": 1169,
+      "url_direta": "https://www.youtube.com/watch?v=l8XzznelqlA",
+      "playlist_origem": null,
+      "status": "disponivel"
+    },
+    {
+      "id": "kH2B82N1H-g",
+      "titulo_informado": "Bibliologia, Aula 1 — Básico ao Avançado",
+      "titulo_original": "BIBLIOLOGIA | AULA 1 - Estudo teológico (Basico ao Avançado)",
+      "canal": "Som Familiar",
+      "duracao": "01:43:20",
+      "duracao_segundos": 6200,
+      "url_direta": "https://www.youtube.com/watch?v=kH2B82N1H-g",
+      "playlist_origem": null,
+      "status": "disponivel"
+    },
+    {
+      "id": "dA-aizw_OYs",
+      "titulo_informado": "Lição 1 — A importância das Escrituras",
+      "titulo_original": "Bibliologia - Lição 1 - A Importância das Escrituras",
+      "canal": "O Canal da Bíblia - Pr. Eugenio Piacentini",
+      "duracao": "43:40",
+      "duracao_segundos": 2620,
+      "url_direta": "https://www.youtube.com/watch?v=dA-aizw_OYs",
+      "playlist_origem": null,
+      "status": "disponivel"
+    },
+    {
+      "id": "KbFU0lU_4DM",
+      "titulo_informado": "Introdução Bíblica — Aula 01",
+      "titulo_original": "Introdução Bíblica - aula 01 - Bibliologia",
+      "canal": "Repensando meu Cristianismo",
+      "duracao": "01:02:40",
+      "duracao_segundos": 3760,
+      "url_direta": "https://www.youtube.com/watch?v=KbFU0lU_4DM",
+      "playlist_origem": null,
+      "status": "disponivel"
+    },
+    {
+      "id": "VMAmWwsoa_8",
+      "titulo_informado": "Curso Básico — Preachers Academy",
+      "titulo_original": "Curso Básico Bibliologia - Academia de Pregadores",
+      "canal": "Academia de Pregadores",
+      "duracao": "36:06",
+      "duracao_segundos": 2166,
+      "url_direta": "https://www.youtube.com/watch?v=VMAmWwsoa_8",
+      "playlist_origem": null,
+      "status": "disponivel"
+    },
+    {
+      "id": "9V_zAkkjbbE",
+      "titulo_informado": "Como o cânon bíblico foi formado? — Tiago Abdalla",
+      "titulo_original": "COMO O CÂNON BÍBLICO FOI FORMADO? - TIAGO ABDALLA",
+      "canal": "Edições Vida Nova",
+      "duracao": "08:35",
+      "duracao_segundos": 515,
+      "url_direta": "https://www.youtube.com/watch?v=9V_zAkkjbbE",
+      "playlist_origem": null,
+      "status": "disponivel"
+    },
+    {
+      "id": "R9oX4VqVr7k",
+      "titulo_informado": "A História do Cânon Bíblico",
+      "titulo_original": "A HISTÓRIA DO CÂNON BÍBLICO – História do Cristianismo 02 ✝",
+      "canal": "Prof. Jonathan Matthies",
+      "duracao": "01:13:36",
+      "duracao_segundos": 4416,
+      "url_direta": "https://www.youtube.com/watch?v=R9oX4VqVr7k",
+      "playlist_origem": null,
+      "status": "disponivel"
+    },
+    {
+      "id": "17l5Mt7yH4c",
+      "titulo_informado": "Aula 2 — O Cânon da Bíblia",
+      "titulo_original": "Aula 2 O canon da Bíblia Teologia Sistemática I Bibliologia CETADEB",
+      "canal": "Célio Augusto",
+      "duracao": "01:11:53",
+      "duracao_segundos": 4313,
+      "url_direta": "https://www.youtube.com/watch?v=17l5Mt7yH4c",
+      "playlist_origem": null,
+      "status": "disponivel"
+    },
+    {
+      "id": "3nd5WR8Jzqw",
+      "titulo_informado": "Bibliologia I — Aula 2",
+      "titulo_original": "Bibliologia I Aula 2 Capítulo 1 A formação do Cânon",
+      "canal": "Antonio Fonseca - ICP",
+      "duracao": "10:22",
+      "duracao_segundos": 622,
+      "url_direta": "https://www.youtube.com/watch?v=3nd5WR8Jzqw",
+      "playlist_origem": null,
+      "status": "disponivel"
+    }
+  ],
+  "pendencias": [
+    {
+      "id": "pendencia-sbb",
+      "titulo_informado": "Bibliologia — atribuição à SBB",
+      "canal": "Sociedade Bíblica do Brasil (SBB)",
+      "status": "pendente_url",
+      "observacao": "URL oficial não fornecida na curadoria inicial; aguardando localização de fonte oficial."
+    }
+  ]
+}

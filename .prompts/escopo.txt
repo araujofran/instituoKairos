@@ -1,0 +1,948 @@
+# PROJETO: ESCOLA DIGITAL DE TEOLOGIA
+## Prompt Mestre de Engenharia de Software para OpenAI Codex
+
+### 1. PAPEL E RESPONSABILIDADE
+
+Atue como uma equipe multidisciplinar de engenharia de software composta por:
+
+- Arquiteto de Software Sênior
+- Engenheiro Full Stack Sênior
+- Engenheiro de Integrações e APIs
+- Especialista em plataformas LMS (Learning Management System)
+- Especialista em UI/UX e Design Systems
+- Engenheiro DevOps e Cloud
+- Especialista em segurança e proteção de dados (LGPD)
+- Especialista em soluções open source e infraestrutura gratuita
+- QA Engineer e especialista em testes automatizados
+
+Sua missão é **planejar, arquitetar, desenvolver, testar, documentar e preparar para publicação uma plataforma completa de educação teológica**, utilizando preferencialmente tecnologias gratuitas, open source e serviços com planos gratuitos.
+
+Não quero somente um protótipo visual. Quero uma aplicação real, funcional, modular, escalável e preparada para usuários reais.
+
+**Nome provisório:** Escola Digital de Teologia
+
+**Identidade associada:** Teologando Fácil — Instagram @teologandofacil
+
+**Primeiro módulo:** Bibliologia e Crítica Textual
+
+---
+
+# 2. CONTEXTO E VISÃO DO NEGÓCIO
+
+O projeto consiste na criação de uma escola de teologia online.
+
+O administrador principal será um professor de teologia, responsável por criar cursos, organizar conteúdos, ministrar aulas ao vivo, acompanhar alunos, aplicar avaliações e emitir certificados.
+
+Os alunos deverão acessar um ambiente educacional moderno, acolhedor, intuitivo e visualmente sofisticado.
+
+A experiência não pode parecer um repositório de vídeos ou arquivos PDF.
+
+Deve parecer uma escola digital real, com presença do professor, comunidade acadêmica, progresso educacional, aulas interativas e acompanhamento individual.
+
+## Princípio fundamental
+
+**A INTERAÇÃO ENTRE PROFESSOR E ALUNOS É A REGRA DE OURO DO SISTEMA.**
+
+A tecnologia deve favorecer o diálogo, a participação, as perguntas, os debates, as atividades e o aprendizado colaborativo.
+
+O sistema deverá funcionar inicialmente com poucos alunos, mas sua arquitetura deve permitir expansão futura.
+
+---
+
+# 3. RESTRIÇÃO FINANCEIRA OBRIGATÓRIA
+
+O objetivo inicial é publicar e operar a plataforma gratuitamente.
+
+Investigue e compare alternativas como:
+
+- Vercel
+- Cloudflare Pages e Workers
+- Supabase
+- Neon PostgreSQL
+- Firebase
+- Google Cloud, quando houver recursos gratuitos adequados
+- GitHub
+- YouTube Live
+- Google Meet
+- Google Drive
+- Google Sheets API
+- Google OAuth
+- Bibliotecas open source
+
+Não considere um serviço gratuito sem verificar suas limitações atuais.
+
+Para cada tecnologia proposta, documente:
+
+1. O que oferece gratuitamente.
+2. Limites de usuários, requisições, armazenamento e tráfego.
+3. Restrições de uso comercial ou educacional.
+4. Riscos de suspensão, hibernação ou esgotamento de cotas.
+5. Necessidade de cartão de crédito.
+6. Possibilidade de cobrança futura.
+7. Alternativa gratuita.
+8. Caminho de migração para infraestrutura paga.
+
+**Nunca invente cotas, preços ou condições comerciais.**
+
+Se não conseguir consultar informações atuais, registre a necessidade de validação.
+
+Priorize serviços que não exijam cartão de crédito.
+
+---
+
+# 4. ARQUITETURA TECNOLÓGICA
+
+Avalie uma arquitetura baseada em:
+
+**Frontend**
+- Next.js com TypeScript ou alternativa tecnicamente superior
+- Tailwind CSS
+- Componentes acessíveis e reutilizáveis
+- Design responsivo
+- Interface em português brasileiro
+
+**Backend**
+- API segura e modular
+- Autenticação e autorização por papéis
+- Validação de dados
+- Serviços desacoplados
+- Integração com plataformas externas
+
+**Banco de dados**
+- PostgreSQL como preferência
+- Supabase ou Neon, conforme viabilidade
+- Migrações versionadas
+- Políticas de acesso por usuário
+- Backups e estratégia de recuperação
+
+**Arquivos e vídeos**
+- Vídeos hospedados preferencialmente no YouTube
+- PDFs e materiais em armazenamento gratuito compatível com os requisitos
+- Metadados, permissões e referências armazenados no banco
+
+**Implantação**
+- GitHub
+- Pipeline de CI/CD
+- Deploy automático
+- Variáveis de ambiente seguras
+- Monitoramento básico
+
+A arquitetura não deve exigir uma infraestrutura complexa para funcionar.
+
+Evite microsserviços desnecessários.
+
+---
+
+# 5. PERFIS E PERMISSÕES
+
+Implementar controle de acesso baseado em papéis (RBAC).
+
+## Administrador
+
+Pode:
+
+- Gerenciar toda a plataforma.
+- Criar cursos, módulos e aulas.
+- Cadastrar professores.
+- Matricular e gerenciar alunos.
+- Criar transmissões ao vivo.
+- Publicar vídeos gravados.
+- Adicionar documentos e materiais.
+- Criar avaliações.
+- Acompanhar frequência.
+- Corrigir atividades.
+- Moderar comentários.
+- Configurar critérios de aprovação.
+- Emitir e revogar certificados.
+- Consultar indicadores acadêmicos.
+
+## Professor
+
+Pode administrar suas próprias turmas, conteúdos, transmissões, atividades, avaliações e interações, respeitando as permissões estabelecidas pelo administrador.
+
+## Aluno
+
+Pode:
+
+- Acessar cursos em que está matriculado.
+- Participar de aulas ao vivo.
+- Fazer perguntas.
+- Consultar materiais.
+- Assistir às gravações autorizadas.
+- Realizar provas.
+- Acompanhar seu progresso.
+- Consultar frequência e notas.
+- Participar dos fóruns.
+- Obter certificados quando elegível.
+
+## Visitante
+
+Pode visualizar conteúdos públicos, informações institucionais, cursos disponíveis e páginas de apresentação.
+
+---
+
+# 6. SISTEMA DE AULAS AO VIVO
+
+Esta é uma das funcionalidades mais importantes.
+
+O administrador deverá criar uma aula e informar:
+
+- Título.
+- Curso e módulo.
+- Professor.
+- Descrição.
+- Data e horário.
+- Duração prevista.
+- Plataforma de transmissão.
+- URL da transmissão.
+- Materiais complementares.
+- Regras de participação.
+- Visibilidade pública ou restrita.
+
+## Integração com YouTube Live
+
+Investigue a possibilidade de incorporar transmissões do YouTube diretamente à plataforma.
+
+Quando permitido pela API, pelas configurações da transmissão e pelas políticas do YouTube, os alunos devem conseguir assistir sem sair do site.
+
+Avalie:
+
+- Player incorporado.
+- Chat ao vivo.
+- API oficial.
+- Transmissões públicas e não listadas.
+- Restrições de vídeos privados.
+- Limitações de incorporação.
+- Autenticação.
+- Disponibilidade de gravações.
+- Sincronização de metadados.
+
+Não prometa chat incorporado ou funcionalidades que a API não suporte.
+
+## Integração com Google Meet
+
+Permitir que o professor cadastre o link de uma reunião.
+
+Investigue se é possível integrar funcionalidades oficiais de reuniões, participantes e gravações.
+
+Se o Google Meet não permitir incorporar a reunião completa no site, utilizar um botão seguro de acesso à reunião.
+
+Não tentar contornar limitações técnicas ou políticas do provedor.
+
+## Integração com Google Sheets
+
+Investigue a API gratuita do Google Sheets.
+
+O administrador poderá conectar ou cadastrar uma planilha para importar, conforme permissões:
+
+- Calendário de aulas.
+- Lista de alunos.
+- Cronograma.
+- Links de transmissões.
+- Informações de turmas.
+
+A planilha deverá funcionar como integração auxiliar, não como substituta do banco de dados principal.
+
+A aplicação deve continuar funcionando mesmo quando a integração estiver indisponível.
+
+---
+
+# 7. INTERAÇÃO — REGRA DE OURO
+
+Construir uma experiência de aula interativa.
+
+## Funcionalidades prioritárias
+
+**Perguntas ao professor**
+
+Durante a transmissão, o aluno poderá enviar perguntas, que ficarão organizadas em uma fila.
+
+O professor poderá marcar perguntas como respondidas, destacar perguntas relevantes e moderar conteúdo.
+
+**Enquetes**
+
+O professor poderá criar perguntas rápidas e visualizar os resultados.
+
+**Comentários**
+
+Implementar comentários vinculados às aulas, com moderação, aprovação e possibilidade de respostas.
+
+**Debates teológicos**
+
+Criar espaços de discussão relacionados aos temas estudados.
+
+Exemplo:
+
+"Como podemos compreender o processo de formação do cânon bíblico?"
+
+Os alunos poderão apresentar argumentos, referências bíblicas e perguntas.
+
+**Interações durante a aula**
+
+Avaliar recursos como:
+
+- Levantar a mão.
+- Reações.
+- Perguntas destacadas.
+- Quizzes rápidos.
+- Enquetes.
+- Registro de participação.
+- Atividades propostas pelo professor.
+
+Distinguir claramente recursos próprios da plataforma e recursos disponíveis apenas no YouTube ou Google Meet.
+
+---
+
+# 8. GRAVAÇÕES E TIMESTAMPS
+
+Após uma aula ao vivo, o administrador deverá poder associar a gravação à aula correspondente.
+
+Sempre que possível, automatizar a identificação da gravação usando integrações oficiais.
+
+Caso não seja possível, permitir o cadastro manual da URL.
+
+## Marcadores temporais
+
+Implementar capítulos navegáveis por assunto.
+
+Exemplo de aula:
+
+**Aula 01 — Introdução à Bibliologia**
+
+- 00:00 — Abertura.
+- 05:20 — O que é Bibliologia?
+- 13:45 — Revelação geral e especial.
+- 25:10 — Inspiração das Escrituras.
+- 39:30 — Formação do cânon.
+- 51:15 — Perguntas dos alunos.
+
+O aluno deverá clicar em um capítulo para avançar até o momento correspondente no vídeo, quando o player oferecer essa funcionalidade.
+
+O professor deverá conseguir cadastrar, editar, excluir e reorganizar marcadores.
+
+Criar a estrutura necessária para uma futura geração automática de capítulos por transcrição e IA, mas não depender de APIs pagas na primeira versão.
+
+---
+
+# 9. BIBLIOTECA DIGITAL
+
+A biblioteca será um componente permanente da escola.
+
+O administrador poderá adicionar uma quantidade variável de conteúdos, respeitando as cotas reais de armazenamento.
+
+Tipos de materiais:
+
+- PDFs.
+- Apostilas.
+- E-books.
+- Artigos.
+- Vídeos.
+- Links externos.
+- Bibliografias.
+- Slides.
+- Exercícios.
+- Documentos complementares.
+
+## Organização
+
+Hierarquia proposta:
+
+Escola → Curso → Módulo → Unidade → Aula → Materiais.
+
+Criar:
+
+- Pesquisa por título.
+- Pesquisa por autor.
+- Filtros por assunto.
+- Categorias.
+- Tags.
+- Materiais recomendados.
+- Histórico de conteúdos acessados.
+- Favoritos.
+- Controle de visibilidade.
+- Controle de acesso por matrícula.
+
+Respeitar direitos autorais e licenças dos materiais.
+
+O administrador deverá poder publicar conteúdos sem precisar alterar código-fonte.
+
+---
+
+# 10. LOUSA VIRTUAL
+
+Implementar ou integrar uma lousa virtual para o professor.
+
+Investigar soluções open source como Excalidraw e alternativas adequadas.
+
+Funcionalidades desejadas:
+
+- Escrever.
+- Desenhar.
+- Criar esquemas.
+- Inserir textos.
+- Organizar mapas conceituais.
+- Criar linhas do tempo.
+- Exportar o quadro como imagem ou PDF.
+- Salvar quadros associados à aula.
+
+Exemplo de uso:
+
+O professor explica a formação do cânon e desenha uma linha do tempo com períodos, concílios e documentos históricos.
+
+A primeira versão poderá utilizar uma lousa individual do professor.
+
+A colaboração simultânea em tempo real deverá ser avaliada separadamente, considerando custos, sincronização e complexidade.
+
+---
+
+# 11. CONTROLE ESCOLAR E FREQUÊNCIA
+
+Implementar um sistema de gestão acadêmica.
+
+## Cadastro do aluno
+
+- Nome.
+- E-mail.
+- Matrícula.
+- Data de inscrição.
+- Cursos.
+- Turmas.
+- Situação acadêmica.
+
+## Lista de chamada
+
+Cada aula deverá possuir uma lista de presença.
+
+Avaliar os seguintes mecanismos:
+
+1. Confirmação manual pelo professor.
+2. Check-in autenticado do aluno.
+3. Registro de participação em atividades.
+4. Integração com presença da plataforma de transmissão, quando oficialmente disponível.
+
+Não considerar a simples abertura de um vídeo como prova definitiva de presença.
+
+Implementar critérios configuráveis para determinar frequência.
+
+## Histórico acadêmico
+
+Cada aluno deverá ter acesso a:
+
+- Disciplinas cursadas.
+- Aulas concluídas.
+- Presenças.
+- Faltas.
+- Atividades.
+- Notas.
+- Média.
+- Percentual de progresso.
+- Situação de aprovação.
+
+---
+
+# 12. AVALIAÇÕES E PROVAS
+
+Criar um módulo de avaliações.
+
+Tipos de questões:
+
+- Múltipla escolha.
+- Verdadeiro ou falso.
+- Resposta curta.
+- Questão discursiva.
+
+Funcionalidades:
+
+- Banco de questões.
+- Provas por módulo.
+- Gabarito.
+- Correção automática de questões objetivas.
+- Correção manual de discursivas.
+- Nota mínima configurável.
+- Limite de tentativas.
+- Prazo de realização.
+- Feedback do professor.
+- Histórico de resultados.
+
+Não disponibilizar respostas corretas antes do encerramento da avaliação, salvo configuração explícita do professor.
+
+---
+
+# 13. CERTIFICADOS DIGITAIS
+
+Implementar emissão de certificados em PDF.
+
+O administrador deverá configurar:
+
+- Nome da escola.
+- Logotipo.
+- Nome do curso.
+- Carga horária.
+- Critérios de conclusão.
+- Frequência mínima.
+- Nota mínima.
+- Nome do responsável.
+- Texto de certificação.
+
+O certificado deverá conter:
+
+- Nome do aluno.
+- Curso concluído.
+- Carga horária.
+- Data de conclusão.
+- Código único de verificação.
+- QR Code de autenticidade.
+
+Criar uma página pública de verificação do certificado, com exposição mínima de dados pessoais.
+
+Certificados revogados devem aparecer como inválidos.
+
+**Não apresentar certificados como diplomas reconhecidos pelo MEC ou títulos acadêmicos oficiais sem a devida base legal e institucional.**
+
+---
+
+# 14. PRIMEIRO MÓDULO — BIBLIOLOGIA
+
+Criar o primeiro curso com o título:
+
+**Módulo I — Bibliologia e Crítica Textual**
+
+Estruturar inicialmente as seguintes unidades sugeridas:
+
+1. Introdução à Bibliologia.
+2. Revelação geral e especial.
+3. Inspiração das Escrituras.
+4. Autoridade e inerrância bíblica.
+5. Formação do cânon do Antigo Testamento.
+6. Formação do cânon do Novo Testamento.
+7. Manuscritos bíblicos.
+8. Introdução à crítica textual.
+9. Traduções e versões da Bíblia.
+10. Interpretação bíblica e contexto histórico-cultural.
+
+Estes são conteúdos iniciais editáveis, não um currículo definitivo.
+
+O administrador deverá poder alterar, excluir, reorganizar ou ampliar livremente a estrutura.
+
+Cada aula poderá conter:
+
+- Objetivos de aprendizagem.
+- Descrição.
+- Vídeo ao vivo.
+- Gravação.
+- Capítulos temporais.
+- PDF.
+- Bibliografia.
+- Lousa.
+- Fórum.
+- Exercício.
+- Avaliação.
+- Registro de presença.
+
+---
+
+# 15. DESIGN E EXPERIÊNCIA DO USUÁRIO
+
+Quero um sistema com padrão visual premium.
+
+Não quero aparência genérica de painel administrativo.
+
+## Direção estética
+
+- Editorial acadêmico contemporâneo.
+- Sofisticação visual.
+- Identidade teológica.
+- Ambiente acolhedor.
+- Layout claro como padrão.
+- Tipografia elegante.
+- Hierarquia visual consistente.
+- Excelente legibilidade.
+- Ícones discretos.
+- Cards organizados.
+- Animações suaves.
+- Responsividade real.
+
+## Paleta sugerida
+
+- Marfim e branco quente.
+- Azul-marinho profundo.
+- Dourado discreto.
+- Cinza ardósia.
+- Tons neutros de apoio.
+
+Evitar excesso de dourado, ornamentos religiosos genéricos e interfaces visualmente carregadas.
+
+## Páginas obrigatórias
+
+1. Home institucional.
+2. Login e cadastro.
+3. Catálogo de cursos.
+4. Detalhe do curso.
+5. Sala de aula ao vivo.
+6. Aula gravada.
+7. Biblioteca.
+8. Lousa.
+9. Avaliações.
+10. Fórum.
+11. Área do aluno.
+12. Histórico acadêmico.
+13. Certificados.
+14. Painel do professor.
+15. Painel do administrador.
+
+## Dashboard do aluno
+
+Apresentar:
+
+- Próxima aula.
+- Progresso no curso.
+- Aulas pendentes.
+- Materiais recentes.
+- Notas.
+- Frequência.
+- Atividades.
+- Certificados.
+
+## Dashboard administrativo
+
+Apresentar:
+
+- Total de alunos.
+- Alunos ativos.
+- Cursos publicados.
+- Aulas realizadas.
+- Próximas lives.
+- Participação.
+- Frequência.
+- Taxa de conclusão.
+- Desempenho nas avaliações.
+
+Não utilizar métricas fictícias em produção.
+
+---
+
+# 16. MODELAGEM DE DADOS
+
+Proponha um modelo relacional PostgreSQL.
+
+Entidades iniciais:
+
+- users
+- profiles
+- roles
+- courses
+- modules
+- units
+- lessons
+- enrollments
+- class_sessions
+- live_sessions
+- video_recordings
+- video_chapters
+- educational_materials
+- library_categories
+- attendance
+- questions
+- polls
+- poll_votes
+- discussions
+- comments
+- assignments
+- assessments
+- assessment_questions
+- assessment_attempts
+- assessment_answers
+- grades
+- certificates
+- certificate_verifications
+- audit_logs
+- integration_settings
+
+Ajuste, normalize e relacione essas entidades conforme a arquitetura escolhida.
+
+Criar índices adequados, chaves estrangeiras, restrições e migrações.
+
+Não armazenar credenciais ou tokens de APIs em texto simples.
+
+---
+
+# 17. SEGURANÇA E LGPD
+
+Implementar:
+
+- Autenticação segura.
+- Autorização no backend.
+- Proteção de rotas.
+- Validação de entradas.
+- Políticas de acesso aos registros.
+- Proteção de arquivos restritos.
+- Tratamento de erros.
+- Logs de auditoria.
+- Limitação de requisições quando necessária.
+- Proteção contra XSS e CSRF conforme a arquitetura.
+- Gestão segura de segredos.
+- Política de privacidade.
+- Fluxo de solicitação de exclusão de dados.
+- Retenção de dados configurável.
+
+Garantir que um aluno não consiga acessar notas, respostas de provas ou dados privados de outros alunos.
+
+---
+
+# 18. ADMINISTRAÇÃO SEM PROGRAMAR
+
+O professor não deve depender do desenvolvedor para operar a escola.
+
+Criar uma interface administrativa que permita:
+
+- Adicionar cursos.
+- Criar módulos.
+- Criar aulas.
+- Cadastrar links de lives.
+- Publicar gravações.
+- Fazer upload de PDFs.
+- Adicionar conteúdos à biblioteca.
+- Criar provas.
+- Gerenciar turmas.
+- Corrigir atividades.
+- Emitir certificados.
+- Publicar avisos.
+- Moderar comentários.
+
+As operações devem ter feedback claro, validação, confirmação para ações destrutivas e tratamento de falhas.
+
+---
+
+# 19. INTEGRAÇÕES E EVOLUÇÃO FUTURA
+
+Preparar a arquitetura para futuras funcionalidades:
+
+- Podcasts teológicos.
+- Trilhas de aprendizagem.
+- Aulas especiais.
+- Comunidades de estudo.
+- Calendário acadêmico.
+- Notificações por e-mail.
+- Assistente de estudos com IA.
+- Busca semântica em materiais autorizados.
+- Transcrição automática.
+- Resumos de aulas.
+- Perguntas baseadas no conteúdo estudado.
+- Integração com Instagram @teologandofacil.
+- Cursos gratuitos e pagos.
+- Matrículas e pagamentos futuros.
+
+Essas funcionalidades não precisam ser implementadas integralmente no MVP.
+
+Não criar dependência prematura de serviços pagos.
+
+---
+
+# 20. PLANO DE EXECUÇÃO OBRIGATÓRIO
+
+Não comece escrevendo centenas de arquivos sem uma arquitetura validada.
+
+Execute o projeto em fases.
+
+## Fase 0 — Diagnóstico e viabilidade
+
+Pesquisar as tecnologias, identificar restrições e apresentar:
+
+- Arquitetura recomendada.
+- Comparação de serviços.
+- Custos e limites.
+- Estratégia de lives.
+- Estratégia de gravações.
+- Estratégia de armazenamento.
+- Estratégia de autenticação.
+- Riscos técnicos.
+- Alternativas.
+
+Criar `docs/VIABILIDADE.md`.
+
+## Fase 1 — Arquitetura
+
+Produzir:
+
+- Documento de arquitetura.
+- Diagrama de componentes.
+- Diagrama de dados.
+- Modelo de permissões.
+- Fluxo de autenticação.
+- Fluxo de criação de aulas.
+- Fluxo de participação do aluno.
+- Fluxo de avaliações e certificados.
+
+Criar `docs/ARQUITETURA.md`.
+
+## Fase 2 — Fundação
+
+Implementar:
+
+- Estrutura do projeto.
+- Banco de dados.
+- Migrações.
+- Autenticação.
+- Perfis e permissões.
+- Design System.
+- Layout responsivo.
+- CI e verificações automatizadas.
+
+## Fase 3 — MVP acadêmico
+
+Implementar:
+
+- Cursos e módulos.
+- Primeiro curso de Bibliologia.
+- Cadastro de aulas.
+- Links de transmissões.
+- Player incorporado quando suportado.
+- Gravações.
+- Marcadores temporais.
+- PDFs.
+- Biblioteca.
+- Matrículas.
+- Área do aluno.
+
+## Fase 4 — Interação
+
+Implementar:
+
+- Perguntas.
+- Comentários.
+- Moderação.
+- Fóruns.
+- Enquetes.
+- Registro de participação.
+- Lousa básica.
+
+## Fase 5 — Gestão escolar
+
+Implementar:
+
+- Frequência.
+- Avaliações.
+- Correção.
+- Notas.
+- Progresso.
+- Histórico.
+- Certificados verificáveis.
+
+## Fase 6 — Qualidade e publicação
+
+Executar:
+
+- Testes unitários.
+- Testes de integração.
+- Testes de autorização.
+- Testes end-to-end dos fluxos críticos.
+- Verificação de acessibilidade.
+- Testes responsivos.
+- Análise de desempenho.
+- Verificação de segurança.
+- Deploy.
+- Teste da aplicação publicada.
+
+---
+
+# 21. CRITÉRIOS DE ACEITE
+
+O MVP só poderá ser considerado funcional quando:
+
+1. Um administrador conseguir criar um curso sem editar código.
+2. Um professor conseguir criar uma aula ao vivo.
+3. Um aluno conseguir se matricular e acessar a aula.
+4. O sistema conseguir exibir um vídeo incorporado quando permitido pelo provedor.
+5. Um aluno conseguir enviar uma pergunta e o professor conseguir moderá-la.
+6. Uma aula conseguir receber uma gravação.
+7. O aluno conseguir navegar pelos capítulos temporais.
+8. O professor conseguir publicar PDFs.
+9. A biblioteca conseguir organizar e pesquisar conteúdos.
+10. O sistema conseguir registrar presença por um mecanismo explícito.
+11. O professor conseguir criar e corrigir uma avaliação.
+12. O aluno conseguir consultar notas e progresso.
+13. O sistema conseguir emitir e verificar um certificado.
+14. As permissões impedirem acesso indevido aos dados.
+15. O projeto conseguir ser implantado conforme a arquitetura documentada.
+
+Se alguma funcionalidade depender de API externa, credencial ou serviço não configurado, informar claramente o bloqueio e não simular sucesso.
+
+---
+
+# 22. DOCUMENTAÇÃO E ENTREGA
+
+Criar os arquivos:
+
+- `README.md`
+- `docs/VIABILIDADE.md`
+- `docs/ARQUITETURA.md`
+- `docs/MODELO_DADOS.md`
+- `docs/INTEGRACOES.md`
+- `docs/DEPLOY_GRATUITO.md`
+- `docs/GUIA_ADMINISTRADOR.md`
+- `docs/GUIA_PROFESSOR.md`
+- `docs/GUIA_ALUNO.md`
+- `docs/ROADMAP.md`
+- `.env.example`
+
+Documentar os comandos reais de instalação, desenvolvimento, testes, migração e deploy.
+
+Nunca colocar chaves reais de API no repositório.
+
+---
+
+# 23. REGRAS DE ENGENHARIA PARA O CODEX
+
+Siga rigorosamente:
+
+1. Inspecione o repositório antes de criar ou modificar arquivos.
+2. Preserve código e configurações existentes que não precisem de alteração.
+3. Não implemente funcionalidades fictícias como se fossem reais.
+4. Não utilize dados de demonstração em métricas de produção.
+5. Não invente endpoints ou capacidades de APIs.
+6. Priorize bibliotecas estáveis e mantidas.
+7. Separe regras de negócio da interface.
+8. Evite duplicação de código.
+9. Utilize TypeScript com tipagem rigorosa, quando aplicável.
+10. Crie migrações reproduzíveis.
+11. Inclua testes para regras críticas.
+12. Documente decisões arquiteturais importantes.
+13. Informe dependências de configuração externa.
+14. Não execute operações destrutivas sem autorização.
+15. Ao concluir cada fase, execute os testes possíveis e informe resultados, limitações e pendências.
+
+Não confunda interface bonita com funcionalidade implementada.
+
+---
+
+# 24. SUA PRIMEIRA TAREFA
+
+Comece realizando uma análise arquitetural profunda.
+
+Quero que você responda inicialmente:
+
+**A.** É tecnicamente possível construir essa escola digital com hospedagem gratuita?
+
+**B.** Qual é a melhor arquitetura para iniciar sem custos?
+
+**C.** Como integrar YouTube Live, Google Meet e Google Sheets sem criar dependências desnecessárias?
+
+**D.** Como garantir que as aulas sejam interativas?
+
+**E.** Como organizar as gravações, timestamps, PDFs e biblioteca?
+
+**F.** Qual estrutura de banco de dados atende à gestão escolar?
+
+**G.** Quais funcionalidades são viáveis no MVP gratuito e quais devem ficar para versões futuras?
+
+**H.** Qual o caminho completo desde o desenvolvimento local até a publicação?
+
+**I.** Quais riscos podem comprometer a continuidade do serviço gratuito?
+
+**J.** Qual é a sequência mais eficiente de implementação?
+
+Depois, apresente um plano de execução com tarefas pequenas, verificáveis e ordenadas por dependência.
+
+**Não comece a implementação antes de apresentar a análise, a arquitetura recomendada e o planejamento da primeira fase. Aguarde minha aprovação para iniciar as alterações no repositório.**
+
+O objetivo final é criar uma escola de teologia digital moderna, interativa, sustentável, organizada e capaz de crescer sem precisar ser reconstruída.

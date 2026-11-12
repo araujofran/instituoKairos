@@ -1,0 +1,22 @@
+:root {
+  /* 60% Fundo Principal e Superfícies Claras */
+  --bg-cream: #faf7f0;
+  --bg-surface: #ffffff;
+  --bg-sky-tint: #8ce0e3;
+
+  /* 30% Estrutura e Hierarquia */
+  --color-primary-dark: #0b3954;
+  --color-secondary-teal: #189ab4;
+
+  /* 10% Acento e Chamadas para Ação (CTAs) */
+  --color-accent-coral: #f26444;
+  --color-accent-amber: #f7b538;
+
+  /* Apoio Semântico e Sombras */
+  --border-soft: rgba(11, 57, 84, 0.11);
+  --border-teal: rgba(24, 154, 180, 0.28);
+  --text-body: #244356;
+  --text-muted: #5b7282;
+  --shadow-card: 0 10px 25px rgba(11, 57, 84, 0.06);
+  --shadow-card-hover: 0 16px 34px rgba(11, 57, 84, 0.11);
+}
